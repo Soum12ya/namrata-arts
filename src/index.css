@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  background-color: #F6F2EB;
+  color: #2C2420;
+}
+
+/* Subtle archival cotton paper texture */
+.paper-grain {
+  background-image: radial-gradient(rgba(44, 36, 32, 0.045) 1px, transparent 0);
+  background-size: 20px 20px;
+}
